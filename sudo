@@ -1,0 +1,9 @@
+syntax on
+
+set nu
+
+set autoread
+
+set mouse=a
+
+set cursorlineu
