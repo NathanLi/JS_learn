@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script type="text/javascript">
+		function setupButtons() {
+			for (var index = 1; index < 4; ++index) {
+				var button = document.getElementById("button" + index);
+				button.addEventListener("click", function() {alert("Click: Button" + index);});
+			}
+		}
+		window.onload=setupButtons;
+		</script>
+	</head>
+	<body>
+		<button id="button1">Button1</button>
+		<button id="button2">Button2</button>
+		<button id="button3">Button3</button>
+	</body>
+</html>
+
